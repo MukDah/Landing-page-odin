@@ -1,0 +1,136 @@
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", arial;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* styling the header*/
+.header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 100px;
+}
+
+.logo {
+  display: flex;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 300;
+  margin-right: auto;
+}
+
+.header-links {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+a:hover {
+  color: #f9faf8;
+  font-size: 21px;
+}
+
+/* styling the hero portion */
+.hero {
+  display: flex;
+  color: #f9faf8;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.hero-cta {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+  gap: 10px;
+}
+
+.hero-cta p {
+  font-family: "Roboto", arial;
+  opacity: 0.7;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+  font-family: "Roboto", arial;
+}
+
+.hero button {
+  display: block;
+  text-align: center;
+  width: 100px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Roboto", arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.L-img {
+  width: 400px;
+  height: 250px;
+}
+
+/*content portion*/
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.s-img {
+  width: 140px;
+  height: 170px;
+  border-radius: 8px;
+  transition: 0.35s;
+}
+
+.s-img:hover {
+  width: 160px;
+  height: 190px;
+}
+
+.head {
+  gap: 20px;
+}
